@@ -13,7 +13,7 @@ set.seed(100)
 # Function to set the working directory and read the data
 read_data <- function()
 {
-  setwd("C:/Users/pumpim/OneDrive - George Mason University - O365 Production/Desktop/DEAN/Major/OR568/Project")
+  setwd("C:/Users/OR568/Project")
   raw_data1 <- read_excel('online_retail_II.xlsx',sheet = 'Year 2009-2010')
   raw_data2 <- read_excel('online_retail_II.xlsx',sheet = 'Year 2010-2011')
   combined.raw.data <- rbind(raw_data1,raw_data2)
